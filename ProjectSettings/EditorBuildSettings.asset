@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GameScene_GrabbingByTouching.unity
-    guid: 453ed44b742d54eaebfeb5af14620e45
+    path: Assets/Scenes/GameScene_UIInteraction.unity
+    guid: c0be32c42eb6e477ba4b0381a22d5507
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 67329b3ce0fe141ea9ce2592e8bf70ff, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0c4c8ee91c2714427abfb4eb086546b6, type: 2}
