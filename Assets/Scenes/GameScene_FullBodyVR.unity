@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 432212029}
-  m_IndirectSpecularColor: {r: 0.32289228, g: 0.80925333, b: 0.92848176, a: 1}
+  m_IndirectSpecularColor: {r: 0.32300377, g: 0.8100522, b: 0.92849153, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -917,6 +917,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1807870860}
+  - {fileID: 228930119945636332}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2477,7 +2478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 608821757}
-  m_MoveSpeed: 4
+  m_MoveSpeed: 1
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
@@ -2685,8 +2686,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 608821756}
     m_Modifications:
+    - target: {fileID: 35923370915340077, guid: 543b98a363a8b4be6b601011f0fb4069, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1851442422990638435, guid: 543b98a363a8b4be6b601011f0fb4069, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2697,7 +2702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3676508629016338820, guid: 543b98a363a8b4be6b601011f0fb4069, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3676508629016338820, guid: 543b98a363a8b4be6b601011f0fb4069, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2717,15 +2722,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3676508629016338820, guid: 543b98a363a8b4be6b601011f0fb4069, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3676508629016338820, guid: 543b98a363a8b4be6b601011f0fb4069, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3676508629016338820, guid: 543b98a363a8b4be6b601011f0fb4069, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3676508629016338820, guid: 543b98a363a8b4be6b601011f0fb4069, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3027,13 +3032,13 @@ MonoBehaviour:
       weight: 1
       footDistance: 0.1
       stepThreshold: 0.3
-      angleThreshold: 50
+      angleThreshold: 20
       comAngleMlp: 1
       maxVelocity: 0.4
       velocityFactor: 0.4
       maxLegStretch: 1
       rootSpeed: 20
-      stepSpeed: 3
+      stepSpeed: 5
       stepHeight:
         serializedVersion: 2
         m_Curve:
