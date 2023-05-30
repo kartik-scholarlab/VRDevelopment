@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GameScene_CameraRig.unity
+    guid: 20713818db62e45c6859626d3634aa87
+  - enabled: 0
+    path: Assets/Oculus/Avatar2/Example/Scenes/NetworkLoopbackExample/NetworkLoopbackExample.unity
+    guid: 0b80808d555493f42937ca45e5970ce7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d2bd9c1bb5d3f4657907b95824a51b50, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7b08dfe9ba5ad4c47b96109832c052d4, type: 2}
